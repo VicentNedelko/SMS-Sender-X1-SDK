@@ -79,7 +79,7 @@
     <PostBuildEvent>"$(SolutionDir)\LogicNodesSDK\LogicNodeTool.exe" create "$(TargetDir) " "$(SolutionDir)\Zip"
 
 echo INFO: Logic Nodes are not signed yet and can only be used in the simulation in GPA.
-REM "$(SolutionDir)\LogicNodesSDK\SignLogicNodes.exe" [path_to_certificate] [certificate_password] $(SolutionDir)\Zip</PostBuildEvent>
+REM "$(SolutionDir)\LogicNodesSDK\SignLogicNodes.exe" [C:\Users\user\Documents\Gira\GIRA_by_Elventa-group.p12] [akfnhjy1980] $(SolutionDir)\Zip</PostBuildEvent>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
