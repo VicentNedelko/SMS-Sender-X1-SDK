@@ -1,6 +1,6 @@
 ﻿{
   "PackageFormatVersion": "1.0",
-  "Assembly": "LogicNodesSDK.Logic.Nodes.dll",
+  "Assembly": "gira_com_by.Logic.Nodes.dll",
   "PackageName": {
     "en": "Logic nodes"
   },
@@ -15,7 +15,7 @@
   "PackageId": "CB18E39C-C1A8-421F-882A-4E3B4B36A996",
   "Nodes": [
     {
-      "Type": "LogicNodesSDK.Logic.Nodes.Node",
+      "Type": "gira_com_by.Logic.Nodes.Node",
       "Name": {
         "en": "SMS Sender"
       },

@@ -7,8 +7,8 @@
     <ProjectGuid>{3F1FF768-FD27-46A2-961C-B6EFDF9CB3B3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LogicNodesSDK.Logic.Nodes</RootNamespace>
-    <AssemblyName>LogicNodesSDK.Logic.Nodes</AssemblyName>
+    <RootNamespace>gira_com_by.Logic.Nodes</RootNamespace>
+    <AssemblyName>gira_com_by.Logic.Nodes</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -78,8 +78,7 @@
   <PropertyGroup>
     <PostBuildEvent>"$(SolutionDir)\LogicNodesSDK\LogicNodeTool.exe" create "$(TargetDir) " "$(SolutionDir)\Zip"
 
-echo INFO: Logic Nodes are not signed yet and can only be used in the simulation in GPA.
-REM "$(SolutionDir)\LogicNodesSDK\SignLogicNodes.exe" [C:\Users\user\Documents\Gira\GIRA_by_Elventa-group.p12] [akfnhjy1980] $(SolutionDir)\Zip</PostBuildEvent>
+"$(SolutionDir)\LogicNodesSDK\SignLogicNodes.exe" "C:\Users\user\Documents\Gira\GIRA_by_Elventa-group.p12" "akfnhjy1980" $(SolutionDir)\Zip</PostBuildEvent>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

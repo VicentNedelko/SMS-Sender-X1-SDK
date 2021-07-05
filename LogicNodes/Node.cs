@@ -1,9 +1,10 @@
-﻿using LogicModule.Nodes.Helpers;
+﻿using gira_com_by.Logic.Nodes;
+using LogicModule.Nodes.Helpers;
 using LogicModule.ObjectModel;
 using LogicModule.ObjectModel.TypeSystem;
 using System.Threading.Tasks;
 
-namespace LogicNodesSDK.Logic.Nodes
+namespace gira_com_by.Logic.Nodes
 {
   public class Node : LogicNodeBase
   {

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LogicNodesSDK.Logic.Nodes {
+namespace gira_com_by.Logic.Nodes {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace LogicNodesSDK.Logic.Nodes {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LogicNodesSDK.Logic.Nodes.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("gira_com_by.Logic.Nodes.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

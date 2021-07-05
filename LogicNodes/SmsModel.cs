@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogicNodesSDK.Logic.Nodes
+namespace gira_com_by.Logic.Nodes
 {
     public class SmsModel
     {
